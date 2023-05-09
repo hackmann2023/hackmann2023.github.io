@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<head>
+    <title>HackMann 2023</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="brand"><span class="mann">HACKMANN</span></span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#scroll-about">About</a></li>
+                <li><a href="#scroll-schedule">Schedule</a></li>
+                <li><a href="#scroll-team">The Team</a></li>
+                <li class="visible-xs"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhSxZ0hCpHgZ76o_XEBBA6MNO-XKxskTxCPJbaBxvsjMAVg/viewform">Register</a></li>
+                <li><a href="#scroll-sponsors">Sponsors</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li><button type="button" style="background-color: #9E191F;" id="navbar-register-button" class="btn btn-primary navbar-btn" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdAhSxZ0hCpHgZ76o_XEBBA6MNO-XKxskTxCPJbaBxvsjMAVg/viewform'">Register</button></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="full-height container">
+    <div id="header" class="row">
+        <div class="center-vertical col-xs-12">
+            <div id="header-logo" class="text-center animated fadeInDown">
+                <h1 id="header-logo-text" class="animated headerTextAppear"><img style="width:70%;" src="img/hackmann.png"></h1>
+            </div>
+            <h2 class="text-center animated fadeIn">Hack your code to <code id="bits">1010</code>.</h2>
+            <h3 class="text-center subtitle animated fadeInUp"><b><span class="text-primary">Thursday, May 18</span></b> to <b><span class="text-primary">Sunday, May 21</span></b></h3>
+            <h2 class="text-center animated fadeInUp">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhSxZ0hCpHgZ76o_XEBBA6MNO-XKxskTxCPJbaBxvsjMAVg/viewform" style="background-color: #9E191F;" class="btn btn-primary btn-lg subtitle" role="button">Register Now!</a>
+            </h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <hr />
+    <div id="about" class="row">
+        <a id="scroll-about" class="scroll-anchor"></a>
+        <div class="col-xs-12">
+            <h3 class="text-center">So what exactly is <span class="brand"><code class="mann">HACKMANN</code></span>, anyway?</h3>
+            <p class="text-justify"><span class="brand"><code class="mann">HACKMANN</code></span> is a hackathon for middle and high school students that is normally hosted at the <b><span class="text-primary">Horace Mann School</span></b> in the Bronx but this year will be hosted ~virtually~. The competition will be from <b><span class="text-primary"></span>Thursday, May 18</span></b> to <b><span class="text-primary"></span>Sunday, May 21</span></b> and teams of up to 4 students are invited to participate and spend some time creating a programming project around a specific theme, which will be announced during the Opening Ceremony (and posted on the website). Mentors on the HackMann discord will be available around the clock to assist students in creating applications. At the end, each team will give a short presentation of its project, and the judges will decide the winners. If you're coming solo, that's great too! We will have time at the beginning of the event to form new teams. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>What if I don't know how to code?</h3>
+            <p class="text-justify"><span class="brand"><code class="mann">HACKMANN</code></span> is a hackathon that is meant for any skill level. Whether you are coming in with all of Knuth's repetoire memorized or with only a basic understanding of what programming is, this hackathon is perfect for you. </p>
+        </div>
+        <div class="col-sm-4">
+            <h3>An online hackathon? How could that be?!?!</h3>
+            <p class="text-justify">Though <span class="brand"><code class="mann">HACKMANN</code></span> has historically been an in-person hackathon, it will happen online this year. With an year off in 2022, this will be a soft re-introduction of HackMann. Our plan is to have our competitors use our HackMann 2023 <a href="https://discord.com/">Discord</a> server to communicate with teammates throughout the duration of the competition. You have the entire weekend to complete the project, starting from Thursday to Sunday. Awards will be announced soon after the submission deadline. </p>
+        </div>
+        <div class="col-sm-4">
+            <h3>You mentioned winners. Are there prizes?</h3>
+            <p class="text-justify">Yes! The awards are given out based on creativity, usefuleness, and technical prowess. There will also be a special prize given out for beginner programmers. The prizes are as follow:</p>
+            <div class="prizes center-text">
+                <ul style="list-style-type:none">
+                    <li>1st Place: $50</li>
+                    <li>2nd Place: $30</li>
+                    <li>3rd Place: $20</li>
+                </ul>
+            </div>
+            <!-- <small style="font-size:14px;" class="text-justify">.</small> -->
+        </div>
+    </div>
+    <hr/>
+    <div id="register" class="row">
+        <a id="scroll-register" class="scroll-anchor"></a>
+        <div class="col-xs-12">
+            <form class="container-fluid" id="registerForm" method="post" action="./register">
+                <div class="row">
+                    <h2 class="text-center"><b>Register</b> here for <span class="brand"><code class="mann">HACKMANN 2023</code></span>!</h2>
+                </div>
+                <br>
+                <div id="register-form-status" class="hidden row alert" role="alert">
+                    <b><span id="register-form-status-title"></span></b> <span id="register-form-status-message"></span>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a class="btn btn-primary center-block reg-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdAhSxZ0hCpHgZ76o_XEBBA6MNO-XKxskTxCPJbaBxvsjMAVg/viewform" target="_blank" style="width:10%; background-color: #9E191F; ">Register</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><a id="scroll-schedule" class="scroll-anchor"></a>
+    <br>
+    <hr/>
+    <br>
+    <div class="row schedule">
+        <h3 class="text-center">Schedule</h3>
+        <h4 class="text-center day-header"><i>Thursday, May 18</i></h2>
+        <div class="col-sm-3"></div>
+        <dl class="col-sm-6 dl-horizontal">
+            <dt>7:00 PM</dt>
+            <dd>Opening Ceremonies</dd>
+            <dt>7:30 PM</dt>
+            <dd>Team Formation/Hacking Begins</dd>
+        </dl>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row schedule">
+        <h4 class="text-center day-header"><i>Friday-Saturday (May 19-20)</i></h2>
+        <div class="col-sm-3"></div>
+        <dl class="col-sm-6 dl-horizontal">
+            <dt>All day</dt>
+            <dd>Hacking Continues!</dd>
+        </dl>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row schedule">
+        <h4 class="text-center day-header"><i>Sunday, May 21</i></h2>
+        <div class="col-sm-3"></div>
+        <dl class="col-sm-6 dl-horizontal">
+            <dt>11:59 PM</dt>
+            <dd>Submission Deadline (hacking ends)</dd>
+        </dl>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row schedule">
+        <h4 class="text-center day-header"><i>Monday, May 22</i></h2>
+        <div class="col-sm-3"></div>
+        <dl class="col-sm-6 dl-horizontal">
+            <dt>3:15 PM</dt>
+            <dd>Awards will be announced</dd>
+        </dl>
+        <div class="col-sm-3"></div>
+    </div>
+    <hr />
+    <a id="scroll-team" class="scroll-anchor"></a>
+    <div class="container text-center">
+        <h3>Meet the Team!</h3>
+        <h4>Feel free to reach out to any one of the organizers if you have questions about HackMann 2023!</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <h4 class="mono" >Rain Li</h4>
+                    <!-- <img src="img/ShreySahgal.JPG" class="img-circle card-img-top" style="width:30%;;"> -->
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Hey!</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::rain_li@horacemann.org" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  rain_li@horacemann.org</a>
+                            </p>
+                            <!-- <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  rl#0723
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 center-block">
+                <div class="card">
+                    <h4 class="mono" >Spencer Kim</h4>
+                    <!-- <img src="img/RehaMathur.jpg" class="img-circle card-img-top" style="width:30%;;"> -->
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Ye!</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::spencer_kim@horacemann.org" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  spencer_kim@horacemann.org</a>
+                            </p>
+                            <!-- <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  reha54321#4179
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    </div>
+    <hr />
+    <div id="sponsors" class="row">
+        <a id="scroll-sponsors" class="scroll-anchor"></a>
+        <h3 class="text-center">Proudly sponsored by:</h3>
+        <div>
+            <a href="https://www.horacemann.org/" target="_blank">
+                <img class="center-block" src="img/horacemann-logo.svg" alt="horacemann-logo" />
+            </a>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <hr />
+    <div id="footer" class="row">
+        <div class="col-xs-12">
+            <p class="text-right text-muted">Site design (c) HackMann 2023</p>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
